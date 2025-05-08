@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch_geometric
 from tqdm import tqdm
 
-import sys, time, pathlib, argparse, csv
+import sys, pathlib, argparse, csv
 
 src_path = 'adjust/this/path'
 sys.path.append(src_path)
